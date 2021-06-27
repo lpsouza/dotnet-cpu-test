@@ -17,7 +17,7 @@ namespace CPUTest
                     watch.Start();
                     while (true)
                     {
-            if (watch.ElapsedMilliseconds > percentage)
+                        if (watch.ElapsedMilliseconds > percentage)
                         {
                             Thread.Sleep(100 - percentage);
                             watch.Reset();
